@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebZoo</title>
+    <link rel="stylesheet" href="./style/webzoo.css">
+</head>
+<body>
+     <header class="cabecalho" class="botao-voltar">
+    <div class="titulos-header">
+        <h1><b>B</b>em <b>V</b>indo ao <b>W</b>eb<b>Z</b>oo</h1>
+        <p class="p1">Venha conhecer o nosso Zoológico</p>
+        <nav>
+        <a href="#sobre">Sobre nós</a>
+        </nav>
+        <nav>
+              <a href="#animais">Nossos Animais</a>
+        </nav>
+        <nav>
+        <a href="#pesquisa">Pesquisas de Animais</a>
+        </nav>
+    </div>
+    <section id="sobre" aria-labelledby="t-sobre">
+
+    </section>
+
+    <img src="./assets/logo/webzoo_logo.png" class="logo-webzoo">
+</header>
+<img src="./assets/imagens/floresta.png" alt="floresta" class="banner-webzoo">
+<main>
+    <section id="animais" aria-labelledby="t-ani" class="section">
+         <h2 id="t-sobre">Sobre a WebZoo</h2>
+            <p>
+                O WebZoo é uma plataforma de educação ambiental do Zoológico de São Paulo. Seu objetivo é apresentar animais e seus ambientes, compartilhar curiosidades e incentivar o cuidado com a natureza.
+            </p>
+    </section>
+
+    <section>
+        <section class="section">
+            <h2>Principais Animais</h2>
+            <div class="character-grid">
+                <div class="character-card">
+                    <img src="./assets/imagens/onca_pintada.png" alt="Onça Pintada">
+                    <h3>Onça Pintada</h3>
+                    <p>A onça-pintada é um felino de pelagem marcada por manchas. É carnívora e pode ser encontrada em ambientes como florestas e áreas do Pantanal.</p>
+                </div>
+                <div class="character-card">
+                    <img src="./assets/imagens/tucano_toco.png" alt="Tucano_Toco">
+                    <h3>Tucano-Toco</h3>
+                    <p>O tucano-toco é uma ave conhecida pelo bico grande e colorido. Alimenta-se de frutos e também de pequenos animais. Pode ser encontrado em áreas como o Cerrado.</p>
+                </div>
+                <div class="character-card">
+                    <img src="./assets/imagens/capivara.png" alt="Capivara">
+                    <h3>Capivara</h3>
+                    <p>A capivara é um roedor que vive em grupos e costuma permanecer perto de rios e lagos. É herbívora e se alimenta de plantas.</p>
+                </div>
+    </section>
+</main>
+<section id="pesquisa" aria-labelledby="t-pesq"></section>
+<main>
+        <form action="#" method="get" id="form-matricula">
+            <fieldset>
+                <legend>Pesquisa de Animais Favoritos</legend>
+                <p>
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </p>
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(19) 99999-9999" required>
+                </p>
+                <p>
+                    <label for="animal favorito">Animais:</label>
+                    <select id="animal favorito" name="Animais" required>
+                        <option value="" disabled selected>Escolha o seu Animal Favorito</option>
+                        <option value="natacao">Onça</option>
+                        <option value="academia">Tucano-Toco</option>
+                        <option value="condicionamento">Capivara</option>
+                    </select>
+                </p>
+                 <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>WebZoo - Educação ambiental - 2026</p>
+        <p>Nome: [Nicolas da Silva Cesario]</p>
+    </footer>
+
+</body>
+</html>

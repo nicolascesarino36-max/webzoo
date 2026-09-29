@@ -1,0 +1,108 @@
+body{
+    background-color: #F4F1E8;
+    color: #25332B;
+}
+
+.cabecalho {
+    background-color: #4F7D45;
+    color: #25332B;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+b{
+    color: greenyellow;
+}
+
+.p1{
+    color: greenyellow;
+}
+
+a{
+    color: azure;
+}
+
+nav {
+            display: inline-block;
+            margin: 16px 0;
+            padding: 10px 20px;
+            background-color: #2e8b2e;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+ 
+        nav:hover {
+            background-color: #1f6b1f;
+            transform: translateY(-1px);
+        }
+ 
+        nav:active {
+            transform: translateY(0);
+        }
+
+.titulos-header h1 {
+    margin: 0;
+}
+
+.titulos-header p {
+    margin: 5px 0 0 0;
+}
+
+.logo-webzoo {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 80px;
+    width: auto;
+}
+
+.banner-webzoo{
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+}
+
+.section {
+            background-color: aliceblue;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #D99A29;
+        }
+
+         .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .character-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .character-card img {
+            width: 500px;
+            height: 500px;
+            object-fit: contain;
+        }
+
+        fieldset{
+            color: #2e8b2e;
+        }
+        
+        footer {
+            background-color: #163E2E;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+      
